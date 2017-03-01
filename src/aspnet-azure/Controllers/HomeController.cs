@@ -22,7 +22,7 @@ namespace aspnet_azure.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "How to contact me.";
 
             return View();
         }
